@@ -8,4 +8,8 @@ public class Collision : MonoBehaviour
     {
         print("You collided with something");
     }
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        print("You picked the item;");      
+    }
 }
